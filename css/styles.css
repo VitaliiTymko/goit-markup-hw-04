@@ -353,19 +353,19 @@ img {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
+  margin-bottom: 16px;
   color: var(--third-txt-color);
 }
 
 .card-comand {
-  padding-top: 30px;
-  margin-bottom: 16px;
+  padding-top: 30px; 
+  padding-bottom: 30px; 
   justify-content: center;
 }
 
 .social-media {
   display: flex;
-  justify-content: center;
-  padding-bottom: 30px;
+  justify-content: center;  
 }
 
 .social-media-item:not(:last-child) {
@@ -446,6 +446,7 @@ img {
 
 .footer-container {
   display: flex;
+  align-items: baseline;
 }
 
 .footer-logo {
@@ -470,8 +471,7 @@ img {
   color: var(--white-color);
 }
 
-.footer-join {
-  margin-top: 12px;
+.footer-join {  
   margin-left: 70px;
 }
 
@@ -609,7 +609,17 @@ img {
   margin-bottom: 30px;
 }
 
-.list-port .item-port:hover {
+/* .list-port .item-port:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+} */
+
+.link-port {
+  display: block;
+}
+
+.link-port:hover  {
+  display: block;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
