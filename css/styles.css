@@ -645,6 +645,7 @@ img {
 
 .title-port {
   margin-bottom: 4px;
+  color: var(--main-txt-color);
 
   font-weight: 700;
   font-size: 18px;
